@@ -12,7 +12,7 @@ function NnationalCodeCheck($nationalCode)
     $code = str_split($nationalCode);
     $sum = 0;
 
-    if (COUNT($code) == 10 && $nationalCode != '0000000000' && strpos('123456789', $nationalCode) !== false) {
+    if (COUNT($code) == 10 && $nationalCode != '0000000000' ) {
 
         for ($i = 0; $i < count($code); $i++) {
             $sum += $code[$i] * (10 - $i);
