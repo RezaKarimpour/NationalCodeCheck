@@ -1,5 +1,5 @@
 # NationalCodeCheck
- بررسی صحت کد ملی با php
+ بررسی صحت کد ملی در php
 
 
 ## Authors
